@@ -1,31 +1,29 @@
 # Basic
-title: OneV's Den
-subtitle: 上善若水，人淡如菊
-welcome_message: <a href="https://objccn.io/products/" target="_blank">ObjC 中国与 objc.io 合作最新作品《函数式 Swift》,《Core Data》及《Swift 进阶》已经发布</a>，<a href="https://boxueio.com">泊学网正在开展订阅赠书活动，也欢迎前往了解</a>
-description: 嗨，我是王巍 (@onevcat)，一名来自中国的 iOS / Unity 开发者。现居日本，就职于 LINE。正在修行，探求创意之源。
+title: Vno Jekyll
+subtitle: A blog-orientation theme for Jekyll
+welcome_message: <a href="https://github.com/onevcat/vno-jekyll" target="_blank">Download the theme</a>
+description: Vno Jekyll is a port of my Ghost theme vno.
 creator: <a href="http://onev.cat">@onevcat</a>
 
-url: "http://onevcat.com"
+url: "http://vno.onevcat.com"
 
 permalink: /:year/:month/:title/
 
 # Format
 highlighter: plain
-markdown: redcarpet
-redcarpet:
-  extensions: ["no_intra_emphasis", "fenced_code_blocks", "autolink", "strikethrough", "superscript", tables]
 
 # supported colors: blue, green, purple, red, orange or slate. If you need clear, leave it empty.
-cover_color: 
+cover_color: red
 
+# The blog button should not be removed.
 blog_button:
-    title: 博客
-    description: 访问博客
+    title: Blog
+    description: Visit blog
 
+# Navigation buttons in the front page.
 nav:
-    - {title: 项目, description: 我的项目, url: 'http://project.onevcat.com'}
-    - {title: 关于, description: 了解更多关于我, url: 'http://about.onevcat.com/'}
-    - {title: 订阅, description: 邮件订阅本站, url: '//store.objccn.io/subscribe'}
+    - {title: Projects, description: My Projects, url: 'http://project.onevcat.com'}
+    # - {title: Another Button, description: A button, url: 'http://example.com'}
 
 # Pagination
 gems: [jekyll-paginate]
@@ -34,8 +32,9 @@ paginate_path: "page/:num/"
 
 # Comment
 comment:
-    disqus: onevcat
-    # duoshuo:
+    disqus: vno-jekyll
+    # duoshuo: 
+    
 # Social
 social:
     weibo: onevcat
@@ -46,5 +45,5 @@ social:
 
 # Google Analytics
 ga:
-    id: UA-25719337-1
-    host: onevcat.com
+    # id: your_ga_id
+    # host: your_host
