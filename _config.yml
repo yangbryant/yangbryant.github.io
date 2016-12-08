@@ -1,4 +1,4 @@
-# Basic
+ # Basic
 title: Vno Jekyll
 subtitle: A blog-orientation theme for Jekyll
 welcome_message: <a href="https://github.com/onevcat/vno-jekyll" target="_blank">Download the theme</a>
@@ -37,11 +37,10 @@ comment:
     
 # Social
 social:
-    weibo: onevcat
-    github: onevcat
-    twitter: onevcat
-    gplus: 107108267983477358170
-    mail: onev@onevcat.com
+    github: yangbryant
+    jianshu: 5b71fccf2255
+    skype: liyangkobeci
+    mail: liyangkobebryant@gmail.com
 
 # Google Analytics
 ga:
