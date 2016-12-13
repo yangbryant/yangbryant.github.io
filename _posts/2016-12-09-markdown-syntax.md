@@ -1,4 +1,4 @@
---
+---
 layout: post
 title: Markdown 语法入门
 date: 2016-12-09 16:12:00 +08:00
@@ -95,7 +95,7 @@ markdown中图片不支持设置对齐方式和自定义宽和高.
 ![链接和图片][Img_4]
 
 ### 5.粗体和斜体
-斜体用 `一个 *` 或 `一个 _` 包含, 粗体用 `两个 *` 或 `两个 _` 包含 的方式 ( `*` 和 `_` 效果是一样的 ) :
+斜体用 `1个 *` 或 `1个 _` 包含, 粗体用 `2个 *` 或 `2个 _` 包含 的方式 ( `*` 和 `_` 效果是一样的 ) :
 
 ```
 **这是粗体写法**
@@ -165,12 +165,13 @@ markdown中图片不支持设置对齐方式和自定义宽和高.
 特别容易忽略换行符的格式, 换行符由 `2个以上的空格 + 1个回车` 组成.
 
 ### 10.脚注
-脚注的语法 :
+脚注的语法 :  
+这是一个脚注: [^Footnote_1], 另外一个脚注: [^Footnote_2].
 
 ```
 这是一个脚注：[^sample_footnote]
 
-[^ sample_footnote]: 这里是脚注信息
+[^sample_footnote]: 这里是脚注信息
 ```
 
 ### 11.注释
@@ -186,6 +187,8 @@ markdown中图片不支持设置对齐方式和自定义宽和高.
 ## 三.小结
 到这里, Markdown 的基本语法在日常的使用中基本就没什么大问题了, 只要常用, 写文档很快就可以行云流水了. 更多的语法规则, 其实 [MacDown][Link_2] 的 Help 文档例子很好, 你可以随时查阅和学习语法.
 
+***
+
 [Link_1]: http://www.markdown.cn
 [Link_2]: http://macdown.uranusjr.com/download/latest/
 
@@ -197,3 +200,6 @@ markdown中图片不支持设置对齐方式和自定义宽和高.
 [Img_6]: /assets/images/markdown/markdown_tables.png 'tables'
 [Img_7]: /assets/images/markdown/markdown_code_blocks.png 'code_blocks'
 [Img_8]: /assets/images/markdown/markdown_horizontal_rules.png 'horizontal_rules'
+
+[^Footnote_1]: 这是一个脚注!
+[^Footnote_2]: 这是另外一个脚注!
