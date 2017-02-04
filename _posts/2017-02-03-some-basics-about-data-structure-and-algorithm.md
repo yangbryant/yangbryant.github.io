@@ -170,29 +170,7 @@ typedef struct BinaryTreeNode
 
 [常用的排序算法详细请点击这里.][sort_detail]
 
-***
-
-### 四. Socket 编程
-
-* Socket是对 **TCP/IP协议簇** 的一种封装,是应用层与TCP/IP协议簇通信的 **中间软件抽象层**.
-
-#### 简易的 WebServer 实例
-
-* 流程如下:
-1. 建立连接: 接受一个客户端连接.
-2. 接受请求: 从网络中读取一条 HTTP 请求报文.
-3. 处理请求: 访问资源.
-4. 构建响应: 创建带有 **Header** 的 HTTP 响应报文.
-5. 发送响应: 传给客户端.
-
-* 函数逻辑如下:
-1. socket(): 创建套接字.
-2. bind(): 分配套接字地址.
-3. listen(): 等待连接请求.
-4. accept(): 允许连接请求.
-5. read()/write(): 数据交换.
-6. close(): 关闭连接.
-
+[排序算法原理动图请点击这里.][sort_algorithm_detail]
 
 ***
 
@@ -201,7 +179,8 @@ typedef struct BinaryTreeNode
 使用 [知识共享“署名-非商业性使用-相同方式共享 3.0 中国大陆”许可协议][Lisence] 授权.
 
 [hash_table_implement]: http://www.cnblogs.com/xiekeli/archive/2012/01/13/2321207.html
-[sort_detail]: http://blog.csdn.net/whuslei/article/details/6442755
+[sort_detail]: http://blog.csdn.net/whuslei/article/details/6442755/
+[sort_algorithm_detail]: /2017/02/sort-algorithm-details/ 'Blog页面'
 [hit-alibaba.github.io]: https://hit-alibaba.github.io/interview/
 [Lisence]: https://creativecommons.org/licenses/by-nc-sa/3.0/cn/
 
