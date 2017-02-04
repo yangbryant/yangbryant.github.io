@@ -1,5 +1,10 @@
 <head>
   <meta charset="utf-8">
+
+  {% if page.url == "/404.html" %}
+    <meta http-equiv="refresh" content="10; url=/#blog">
+  {% endif %}
+
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
 
