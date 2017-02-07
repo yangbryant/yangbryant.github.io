@@ -51,7 +51,8 @@ tags: 温故而知新
 1. 相同的范围 (同一个类中).
 2. 方法名字相同.
 3. 参数个数或者类型不同.
-4. **Virtual** 关键词可有可无.
+4. **virtual** 关键词可有可无.
+* 执行情况: 看参数决定.
 
 #### 覆盖 (override)
 
@@ -59,7 +60,65 @@ tags: 温故而知新
 1. 不同的范围 (分别位于派生类和基类中).
 2. 方法名字相同.
 3. 参数相同.
-4. 基类方法必须有 **Virtual** 关键词.
+4. 基类方法必须有 **virtual** 关键词.
+* 执行情况: 调用派生类.
+
+#### 隐藏 (hide)
+
+* 派生类的成员方法隐藏了基类函数的成员方法.
+1. 如果派生类的函数与基类的函数同名,但是参数不同,此时,不论有无virtual关键字,基类的函数将被隐藏(注意别与重载混淆).
+2. 如果派生类的函数与基类的函数同名,但是参数相同,但是基类函数没有virtual关键字.此时,基类的函数被隐藏(注意别与覆盖混淆).
+* 执行情况: 用什么就调用什么.
+
+> 派生类和基类的方法名和参数都相同, 属于覆盖;
+> 只是方法名相同, 参数并不相同, 则属于隐藏.
+
+#### 代码解析
+
+```C++
+// 基类的实现
+class Base
+{
+public:
+    virtual void f(float x)
+    {
+        cout << "Base::f(float) " << x << endl;
+    }
+    
+    void g(float x)
+    {
+        cout << "Base::g(float) " << x << endl; 
+    }
+    
+    void h(float x)
+    {
+        cout << "Base::h(float) " << x << endl;
+    }
+};
+
+// 派生类的实现
+class Derived: public Base
+{
+public:
+    // Derived::f(float) 覆盖(override)了方法 Base::f(float)
+    virtual void f(float x)
+    {
+        cout << "Derived::f(float) " << x << endl;
+    }
+    
+    // Derived::g(int) 隐藏(hide)了方法 Base::g(float), 而不是重载(overload) -- 与 `隐藏-1` 的情况一致.
+    void g(int x)
+    {
+        cout << "Derived::g(int) " << x << endl;
+    }
+    
+    // Derived::h(float) 隐藏(hide)了 Base::h(float), 而不是覆盖(override) -- 与 `隐藏-2` 的情况一致.
+    void h(float x)
+    {
+        cout << "Derived::h(float) " << x << endl;
+    }
+};
+```
 
 ***
 
