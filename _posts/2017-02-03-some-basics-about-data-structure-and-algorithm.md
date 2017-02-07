@@ -670,7 +670,7 @@ int main(){
 
 [hash_table_implement]: http://www.cnblogs.com/xiekeli/archive/2012/01/13/2321207.html
 [sort_detail]: http://blog.csdn.net/whuslei/article/details/6442755/
-[sort_algorithm_detail]: /2017/02/sort-algorithm-details/ 'Blog页面'
+[sort_algorithm_detail]: /2017/02/sort-algorithm-1-insertion-sort/ '排序算法'
 [hit-alibaba.github.io]: https://hit-alibaba.github.io/interview/
 [Lisence]: https://creativecommons.org/licenses/by-nc-sa/3.0/cn/
 
