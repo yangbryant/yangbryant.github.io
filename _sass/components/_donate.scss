@@ -1,0 +1,48 @@
+// ------------------------------
+// DONATE
+// ------------------------------
+
+.donate {
+    margin-top: 1em;
+    margin-bottom: 1em;
+    padding-top: 1.2em;
+    padding-bottom: 1em;
+    border-top: 1px solid #DDDDDD;
+}
+
+.donate-title {
+  display: block;
+  margin-top: 20px;
+  margin-bottom: 10px;
+  font-size: 1.5em;
+  font-weight: bold;
+}
+
+.donate-title-small {
+  display: block;
+  margin-bottom: 15px;
+  font-size: smaller;
+  font-weight: normal;
+  color: #777;
+}
+
+.donate-row {
+  display: flex;
+  flex-direction: row;
+}
+
+.donate-item {
+  display: block;
+  margin: 5px;
+}
+
+.donate-item img {
+  max-width: 100%;
+  height: auto;
+}
+
+.donate-item figcaption {
+  display: block;
+  text-align: center;
+  font-size: smaller;
+}
