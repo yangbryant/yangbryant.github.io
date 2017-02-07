@@ -9,7 +9,7 @@ tags: Jekyll 配置
   
 服务启动信息如下:
 
-```
+```plain
 MacBookPro:~ user$ bundle exec jekyll serve
 
 Configuration file: /Users/user/yangbryant.github.io/_config.yml
@@ -28,7 +28,7 @@ Configuration file: /Users/user/yangbryant.github.io/_config.yml
 其实, 只需要增加 Jekyll 的参数, 带上 `--host=0.0.0.0` .  
 即使用此启动服务的指令=> `bundle exec jekyll serve --host=0.0.0.0` .
 
-```
+```plain
 MacBookPro:~ user$ bundle exec jekyll serve --host=0.0.0.0
 
 Configuration file: /Users/user/yangbryant.github.io/_config.yml
