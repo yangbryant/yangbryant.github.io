@@ -7,6 +7,16 @@ tags: 温故而知新
 
 ***
 
+#### 操作系统基础:
+
+[操作系统基础(一) -- 数据单元][arch]  
+[操作系统基础(二) -- 中断和系统调用][interrupt_and_syscall]  
+[操作系统基础(三) -- 并发技术][concurrency]  
+[操作系统基础(四) -- 内存管理基础][memory_management]  
+[操作系统基础(五) -- 磁盘与文件][disk_and_file]  
+
+***
+
 ### 位(Bit), 字节(Byte), 字(Word)
 
 * 位: 计算机 **最小数据单位** .状态只能是 **0或1** .
@@ -87,3 +97,9 @@ void main()
 
 [hit-alibaba.github.io]: https://hit-alibaba.github.io/interview/
 [Lisence]: https://creativecommons.org/licenses/by-nc-sa/3.0/cn/
+
+[arch]: /2017/02/basics-about-arch/ 'arch'
+[interrupt_and_syscall]: /2017/02/basics-about-interrupt-and-syscall/ 'interrupt_and_syscall'
+[concurrency]: /2017/02/basics-about-concurrency/ 'concurrency'
+[memory_management]: /2017/02/basics-about-memory-management/ 'memory_management'
+[disk_and_file]: /2017/02/basics-about-disk-and-file/ 'disk_and_file'
