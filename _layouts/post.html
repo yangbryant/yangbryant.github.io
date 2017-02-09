@@ -15,7 +15,9 @@ layout: default
   </section>
 </article>
 
-{% include comments.html %}
+{% if site.comment %}
+  {% include comments.html %}
+{% endif %}
 {% include read-more.html %}
 {% include donate.html %}
 
