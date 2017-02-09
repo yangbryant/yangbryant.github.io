@@ -30,6 +30,11 @@
             ds.charset = 'UTF-8';
             (document.getElementsByTagName('head')[0] || document.getElementsByTagName('body')[0]).appendChild(ds);
         })();
+
+        // 去掉分享默认勾选
+        $(document).on('click', '#ds-thread textarea[name=message]', function(){
+            $('#ds-sync-checkbox').prop('checked', false);
+        });
     </script>
   {% endif %}
   
