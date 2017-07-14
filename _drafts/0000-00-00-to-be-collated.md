@@ -12,3 +12,6 @@ tags: 初学者
 
 ## 天天都在用的 SDWebImage， 你了解它的缓存策略吗？
 [Link_4]: https://swiftcafe.io/2017/02/19/sdimage-cache/ "SDWebImage缓存策略"
+
+## 用C寫一個簡單的callback function sample
+[Link_5]: http://eeepage.info/examplecallback-function/ "用C寫一個簡單的callback function sample"
