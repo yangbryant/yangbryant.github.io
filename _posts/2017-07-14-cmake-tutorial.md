@@ -634,7 +634,7 @@ Now we use the standard library.
 
 > 关于 `CPack` 的更详细的用法可以通过 `man 1 cpack` 参考 CPack 的文档.
 
-#### 将其他平台的项目迁移到 CMake
+### 四.将其他平台的项目迁移到 CMake
 
 ##### autotools
 
@@ -675,6 +675,6 @@ Now we use the standard library.
 [Link_1]: http://www.hahack.com/codes/cmake/
 [Link_2]: https://github.com/yangbryant/cmake_tutorial
 
-[img_4]: /assets/images/cmake/cmake_demo4.jpg 'demo4'
+[img_4]: /assets/images/cmake/cmake_demo4.jpg "demo4"
 
 [Link_3]: https://cmake.org/cmake-tutorial/
