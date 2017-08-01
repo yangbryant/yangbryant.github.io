@@ -15,3 +15,6 @@ tags: 初学者
 
 ## 用C寫一個簡單的callback function sample
 [Link_5]: http://eeepage.info/examplecallback-function/ "用C寫一個簡單的callback function sample"
+
+## 使用 SCons 轻松建造程序
+[Link_6]: https://www.ibm.com/developerworks/cn/linux/l-cn-scons/index.html "使用 SCons 轻松建造程序"
