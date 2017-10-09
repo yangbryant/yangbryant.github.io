@@ -18,3 +18,6 @@ tags: 初学者
 
 ## 使用 SCons 轻松建造程序
 [Link_6]: https://www.ibm.com/developerworks/cn/linux/l-cn-scons/index.html "使用 SCons 轻松建造程序"
+
+## YYCache 源码解读
+[Link_7]: http://www.jianshu.com/p/cec81370c083 "YYCache 源码解读"
