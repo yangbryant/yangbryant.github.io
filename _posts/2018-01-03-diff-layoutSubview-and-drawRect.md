@@ -48,7 +48,7 @@ tags: 初学者
 ### 二.drawRect
 
 * iOS 的绘图和重绘操作是在 UIView 类的 `drawRect` 方法中完成的.
-* 但是, 苹果不建议直接调用 `drawRect` 方法, 如果你强直直接调用此方法, 当然是没有效果的.
+* 但是, 苹果不建议直接调用 `drawRect` 方法, 如果你强制直接调用此方法, 当然是没有效果的.
 * 苹果要求我们调用 UIView 类中的 `setNeedsDisplay` 方法, 则程序会自动调用 `drawRect` 方法进行重绘.
 * 重写 `drawRect: (CGRect) aRect` 方法, 此方法一般情况下只会被调用一次. 当想要手动重画这个 **View**, 只需要掉用 `[self setNeedsDisplay]` 方法.
 
