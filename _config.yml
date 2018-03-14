@@ -53,7 +53,8 @@ ga:
     # id: your_ga_id
     # host: your_host
 
-#donate
+# donate
 reward: true
 
+# for travis ci build passing
 exclude: [vendor]

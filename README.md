@@ -1,5 +1,7 @@
 # Vno - Jekyll - Forked from onevcat
 
+![Travis](https://img.shields.io/travis/yangbryant/yangbryant.github.io.svg)
+
 [Vno Jekyll](https://github.com/onevcat/vno-jekyll) is a theme for [Jekyll](http://jekyllrb.com). It is a port of my Ghost theme [vno](https://github.com/onevcat/vno), which is originally developed from [Dale Anthony's Uno](https://github.com/daleanthony/uno).
 
 ## Live Demo
