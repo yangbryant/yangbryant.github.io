@@ -61,6 +61,20 @@ Host git.corp.example.com
   ProxyCommand=nc -X 5 -x localhost:1080 %h %p
 ```
 
+```
+# 参数介绍, 译者注
+
+-X 5 表示 socks5
+-X 4 表示 socks4
+-X connect 表示 https
+
+-x 当前代理的端口和地址
+
+%h 目标hostname,请求传递的参数
+%p 目标端口,请求传递的参数
+
+```
+
 正如你看到的,当我们执行```ssh git.corp.example.com```时, 事实上OpenSSH会用`netcat`通过`localhost:1080`代理网络数据流.
 
 > 注意: 如果你不知道 `netcat`, 你应该了解一下! 它能通过网络连接发送原始数据流.
