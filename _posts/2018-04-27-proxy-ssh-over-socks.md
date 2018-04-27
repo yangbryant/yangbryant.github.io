@@ -40,7 +40,7 @@ git config --global https.proxy 'socks5://127.0.0.1:1080'
 
 你可以通过添加 `-D` 参数来监听端口:
 
-```
+```shell
 ssh -D 1080 jumphost.corp.example.com
 ```
 
@@ -56,12 +56,12 @@ ssh -D 1080 jumphost.corp.example.com
 
 添加下面的参数到你的 ```~/.ssh/config```文件中:
 
-```
+```vim
 Host git.corp.example.com
   ProxyCommand=nc -X 5 -x localhost:1080 %h %p
 ```
 
-```
+```shell
 # 参数介绍, 译者注
 
 -X 5 表示 socks5
@@ -86,7 +86,7 @@ Host git.corp.example.com
 现在,我们在本地启动了一个SOCKS代理(步骤1),并告诉`OpenSSH`任何来自`git.corp.example.com`的请求都用代理执行.  
 没有什么其他要做的了,可以像往常一样使用Git了.
 
-```
+```shell
 git clone git@git.corp.example.com/parabuzzle/jedimaster.git
 ```
 
