@@ -135,6 +135,9 @@
 // ADDITIONAL COVER COLOURS
 // ------------------------------
 
+.cover-lightblue {
+  @include linear-gradient(140deg, rgba($blue,.6) 5%, rgba(darken($blue, 80%),.8));
+}
 .cover-blue {
   @include linear-gradient(140deg, rgba($blue,.6) 20%, rgba(darken($blue, 20%),.8));
 }
