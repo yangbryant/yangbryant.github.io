@@ -28,7 +28,7 @@ nav:
     # - {title: Another Button, description: A button, url: 'http://example.com'}
 
 # Pagination
-gems: 
+plugins: 
     - jekyll-redirect-from
     - jekyll-paginate
 
