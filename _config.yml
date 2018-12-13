@@ -24,6 +24,7 @@ blog_button:
 # Navigation buttons in the front page.
 nav:
     - {title: 项目, description: 我的项目, url: 'https://github.com/yangbryant'}
+    - {title: 简历, description: 我的简历, url: 'https://resume.srefan.com'}
     - {title: 关于, description: 关于我, url: ''}
     # - {title: Another Button, description: A button, url: 'http://example.com'}
 
