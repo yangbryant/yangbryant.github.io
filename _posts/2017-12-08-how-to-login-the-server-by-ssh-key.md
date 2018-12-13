@@ -9,7 +9,7 @@ tags: 配置师
 
 ### 一.概述
 
-* 此教程是对 MacOS 和 Linux 用户适用的. 
+* 此教程是对 MacOS 和 Linux 用户适用的.
 * 通常我们登录远程服务器使用 IP, 用户名, 密码的方式, 从安全角度考虑, 防止脚本暴力破解, 推荐使用 **SSH-Key 登录**.
 * 此外, 目前还有一种 **denyhosts** 的方式防止暴力破解.
 * SSH-Key 是客户端与服务器之间建立的一对密钥, 如果服务器和客户端的密钥匹配, 则允许服务器进行连接.
@@ -21,7 +21,7 @@ tags: 配置师
 * 第一步,在客户端创建密钥对.
 
 ```bash
-ssh-kekgen -t rsa
+ssh-keygen -t rsa
 ```
 
 #### Step2. 存储密钥
@@ -43,9 +43,9 @@ Enter passphrase (empty for no passphrase):
 ```bash
 ssh-keygen -t rsa
 Generating public/private rsa key pair.
-Enter file in which to save the key (/demo/.ssh/id_rsa): 
-Enter passphrase (empty for no passphrase): 
-Enter same passphrase again: 
+Enter file in which to save the key (/demo/.ssh/id_rsa):
+Enter passphrase (empty for no passphrase):
+Enter same passphrase again:
 Your identification has been saved in /demo/.ssh/id_rsa.
 Your public key has been saved in /demo/.ssh/id_rsa.pub.
 The key fingerprint is:
@@ -104,8 +104,8 @@ service sshd restart
 
 ### 三.参考链接
 
-此文参考于 [digitalocean的文档][Link_1],十分感谢.  
-所有引用内容版权归原作者所有.  
+此文参考于 [digitalocean的文档][Link_1],十分感谢.
+所有引用内容版权归原作者所有.
 使用 [知识共享“署名-非商业性使用-相同方式共享 3.0 中国大陆”许可协议][Lisence] 授权.
 
 [Lisence]: https://creativecommons.org/licenses/by-nc-sa/3.0/cn/
