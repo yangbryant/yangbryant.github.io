@@ -1,61 +1,109 @@
- # Basic
-header_title: 程序小刀的学习之道
-title: Srefan
-subtitle: 生活不止眼前的苟且
-welcome_message: <a href="https://github.com/yangbryant/yangbryant.github.io" target="_blank">我为你创造了世界,</br>但你依然沉睡在你仅有的梦中...</br></br>/* Keep on going never give up */</a>
-description: print ( "Hello World !" )
-creator: <a href="https://github.com/yangbryant">@Srefan</a>
+# Site settings
+title: 李二狗的博客
+bigTitle: 程序小刀的学习之道
+SEOTitle: 李二狗的博客 | Srefan Blog
+header-img: img/home-bg.jpg
+email: liyangkobebryant@gmail.com
+description: "生活不止眼前的苟且, 还有远方的 Hello World!"
+keyword: "李二狗, 李二狗的技术博客, Srefan, srefan, @Srefan, @srefan, yangbryant, Blog, 博客, 个人网站, 嵌入式, 互联网, C/C++, Objective-C, Web, JavaScript, Node.js, Go, Python, iOS, 前端, 后端, 设计"
+url: "https://blog.srefan.com"              # your host, for absolute URL
+baseurl: ""                             # for example, '/blog' if your blog hosted on 'host/blog'
 
-url: "http://yangbryant.github.com"
+# Publish posts or collection documents with a future date.
+future: true
 
-permalink: /:year/:month/:title/
+# SNS settings
+RSS: true
+# weibo_username:     srefan
+zhihu_username:     yangbryant
+github_username:    yangbryant
+#twitter_username:   id
+#facebook_username:  id
+#linkedin_username:  firstname-lastname-idxxxx
 
-# Format
+
+
+# Build settings
+# from 2016, 'pygments' is unsupported on GitHub Pages. Use 'rouge' for highlighting instead.
 highlighter: rouge
-
-# supported colors: blue, green, purple, red, orange or slate. If you need clear, leave it empty.
-cover_color: lightblue
-
-# The blog button should not be removed.
-blog_button:
-    title: 博客
-    description: 访问博客
-
-# Navigation buttons in the front page.
-nav:
-    - {title: 项目, description: 我的项目, url: 'https://github.com/yangbryant'}
-    - {title: 简历, description: 我的简历, url: 'https://resume.srefan.com'}
-    - {title: 关于, description: 关于我, url: ''}
-    # - {title: Another Button, description: A button, url: 'http://example.com'}
-
-# Pagination
-plugins: 
-    - jekyll-redirect-from
-    - jekyll-paginate
-
+permalink: pretty
 paginate: 10
-paginate_path: "page/:num/"
+exclude: ["less","node_modules","Gruntfile.js","package.json","README.md","README.zh.md"]
+anchorjs: true                          # if you want to customize anchor. check out line:181 of `post.html`
+# If you have timezone issue (e.g. #68) in China, uncomment to use this:
+#timezone: CN  
 
-# Comment
-comment:
-    # disqus: srefan
-    # duoshuo: srefan
-    
-# Social
-social:
-#    weibo: srefan
-    github: yangbryant
-    jianshu: 5b71fccf2255
-#    skype: liyangkobeci
-    mail: liyangkobebryant@gmail.com
+
+
+# Gems
+# from PR#40, to support local preview for Jekyll 3.0
+# make sure you have this gem installed
+# `$ gem install jekyll-paginate`
+plugins: [jekyll-paginate]
+
+
+
+# Markdown settings
+# replace redcarpet to kramdown,
+# although redcarpet can auto highlight code, the lack of header-id make the catalog impossible, so I switch to kramdown
+# document: http://jekyllrb.com/docs/configuration/#kramdown
+markdown: kramdown
+kramdown:
+  input: GFM                            # use Github Flavored Markdown !important
+  syntax_highlighter_opts:
+    span:
+      line_numbers: false
+    block:
+      line_numbers: true
+      start_line: 1
+
+
+
+# Disqus settings
+# disqus_username: srefan
+
+
+# Analytics settings
+# Baidu Analytics 
+# ba_track_id: [your track id]
 
 # Google Analytics
-ga:
-    # id: your_ga_id
-    # host: your_host
+# ga_track_id: 'your track id'            # Format: UA-xxxxxx-xx
+# ga_domain: [your domain]
 
-# donate
-reward: true
 
-# for travis ci build passing
-exclude: [vendor]
+
+# Sidebar settings
+sidebar: true                           # whether or not using Sidebar.
+sidebar-about-description: "Keep on going, Never give up!<br>犹犹豫豫豫豫犹, 人生何处是尽头"
+sidebar-avatar: /img/avatar.jpg      # use absolute URL, seeing it's used in both `/` and `/about/`
+
+
+
+# Featured Tags
+featured-tags: true                     # whether or not using Feature-Tags
+featured-condition-size: 1              # A tag will be featured if the size of it is more than this condition value
+
+
+
+# Progressive Web Apps
+chrome-tab-theme-color: "#000000"
+service-worker: true
+
+
+
+# MathJax rendering for layout:page (e.g. post preview)
+page-mathjax: false
+
+
+
+# Friends
+# friends: [
+    # {
+    #     title: "乱序",
+    #     href: "http://mida.re/"
+    # },{
+    #     title: "尹峰以为",
+    #     href: "http://ingf.github.io/"
+    # }
+# ]
