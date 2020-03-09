@@ -1,8 +1,15 @@
 ---
 layout: post
 title: Writing Posts
+subtitle: 
+author: Srefan
 date: 2016-12-09 16:18:00 +08:00
-tags: 初学者
+catalog: true
+header-img: 
+header-mask: 0.3
+tags:
+    - 知乎
+    - Web 
 ---
 
 ***
