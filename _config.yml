@@ -12,14 +12,17 @@ baseurl: ""                             # for example, '/blog' if your blog host
 # Publish posts or collection documents with a future date.
 future: true
 
+author: Srefan
+
 # SNS settings
-RSS: true
+RSS: false
 # weibo_username:     srefan
 zhihu_username:     yangbryant
 github_username:    yangbryant
 #twitter_username:   id
 #facebook_username:  id
 #linkedin_username:  firstname-lastname-idxxxx
+resumeurl: "https://resume.srefan.com"
 
 cover_color: lightgray
 page-img: img/page-bg.jpg
