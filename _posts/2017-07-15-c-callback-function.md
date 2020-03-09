@@ -2,7 +2,12 @@
 layout: post
 title: C语言实现 Callback Function 例子
 date: 2017-07-15 15:00:00 +08:00
-tags: 炒冷饭
+author: Srefan
+catalog: true
+tags:
+    - C/C++
+    - 进阶
+    - 深阅读
 ---
 
 ***

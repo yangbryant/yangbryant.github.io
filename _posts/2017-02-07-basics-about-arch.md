@@ -2,7 +2,11 @@
 layout: post
 title: 操作系统基础(一) -- 数据单元
 date: 2017-02-07 16:12:00 +08:00
-tags: 温故而知新
+author: Srefan
+catalog: true
+tags:
+    - 入门
+    - 操作系统
 ---
 
 ***

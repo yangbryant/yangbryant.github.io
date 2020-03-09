@@ -2,7 +2,11 @@
 layout: post
 title: YAML 语法入门
 date: 2017-03-17 16:20:42 +08:00
-tags: 初学者
+author: Srefan
+catalog: true
+tags:
+    - 入门
+    - YAML
 ---
 
 ***

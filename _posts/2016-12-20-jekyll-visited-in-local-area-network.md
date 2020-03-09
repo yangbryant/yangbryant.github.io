@@ -2,7 +2,11 @@
 layout: post
 title: Jekyll 服务在局域网内访问预览
 date: 2016-12-20 15:35:24 +08:00
-tags: Jekyll 配置
+author: Srefan
+catalog: true
+tags:
+    - 配置
+    - Jekyll
 ---
 
 **Jekyll** 通过 `bundle exec jekyll serve` 指令启动服务, 生成静态html, 通过http服务给 **localhost** 进行调试预览.  

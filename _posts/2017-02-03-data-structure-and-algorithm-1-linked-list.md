@@ -2,7 +2,11 @@
 layout: post
 title: 数据结构与算法基础(一) -- 链表
 date: 2017-02-03 09:02:00 +08:00
-tags: 温故而知新
+author: Srefan
+catalog: true
+tags:
+    - 入门
+    - 数据结构
 ---
 
 ***

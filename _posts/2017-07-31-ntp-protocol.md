@@ -2,7 +2,12 @@
 layout: post
 title: NTP 协议简单分析
 date: 2017-07-31 14:33:00 +08:00
-tags: 协议控
+author: Srefan
+catalog: true
+tags:
+    - NTP
+    - 入门
+    - 协议
 ---
 
 ***

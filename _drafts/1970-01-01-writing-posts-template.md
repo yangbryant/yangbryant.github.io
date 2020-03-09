@@ -6,7 +6,6 @@ author: Srefan
 date: 2016-12-09 16:18:00 +08:00
 catalog: true
 header-img: 
-header-mask: 0.3
 tags:
     - 知乎
     - Web 

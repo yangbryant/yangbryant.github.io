@@ -2,7 +2,11 @@
 layout: post
 title: SwiftyJSON 源码探索
 date: 2017-05-16 09:14:00 +08:00
-tags: 深阅读
+author: Srefan
+catalog: true
+tags:
+    - 源码解析
+    - 深阅读
 ---
 
 ***

@@ -2,14 +2,17 @@
 layout: post
 title: ssh通过Socks代理(最简单的方式)
 date: 2018-04-27 10:32:00 +08:00
-tags: 我是一名译者
 author: Mike Heijmans
 categories: SysAdmin
 origin_tags: [Tech, System Administration, Git, SSH, Tricks, DevOps]
-preview: Today I had a strange problem. I needed to work with an internal git repo behind a firewall from my home on my personal laptop. The git server only allows SSH connections (git@git.corp.example.com) and doesn't support HTTP requests.
+description: Today I had a strange problem. I needed to work with an internal git repo behind a firewall from my home on my personal laptop. The git server only allows SSH connections (git@git.corp.example.com) and doesn't support HTTP requests.
 og_type: article
 og_description: The simple way to proxy SSH over a SOCKS proxy without any additional software.
-disqus_id: 3
+catalog: true
+tags:
+    - Objective-C
+    - 深阅读
+    - 转载
 ---
 
 ***

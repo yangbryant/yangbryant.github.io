@@ -2,7 +2,11 @@
 layout: post
 title: VMware 虚拟机扩展 Linux 根目录磁盘空间
 date: 2017-03-25 13:35:30 +08:00
-tags: 终结者
+author: Srefan
+catalog: true
+tags:
+    - VMware
+    - 技巧
 ---
 
 ## 问题根源

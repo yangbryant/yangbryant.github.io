@@ -1,8 +1,12 @@
 ---
 layout: post
 title: Markdown 语法入门
+author: Srefan
 date: 2016-12-09 16:12:00 +08:00
-tags: 初学者
+catalog: true
+tags:
+    - 入门
+    - Markdown
 ---
 
 ***

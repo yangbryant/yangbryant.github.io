@@ -2,7 +2,11 @@
 layout: post
 title: 温习C++的面向对象基础的笔记
 date: 2017-02-06 14:51:27 +08:00
-tags: 温故而知新
+author: Srefan
+catalog: true
+tags:
+    - 入门
+    - C/C++
 ---
 
 *** 

@@ -2,7 +2,11 @@
 layout: post
 title: 语义化版本 2.0.0
 date: 2017-08-15 10:48:00 +08:00
-tags: 初学者
+author: Srefan
+catalog: true
+tags:
+    - 入门
+    - 版本
 ---
 
 ***

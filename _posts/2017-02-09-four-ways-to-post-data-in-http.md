@@ -2,7 +2,12 @@
 layout: post
 title: 四种常见的 POST 提交数据方式
 date: 2017-02-09 10:20:00 +08:00
-tags: Http协议
+author: Srefan
+catalog: true
+tags:
+    - 入门
+    - 协议
+    - Http
 ---
 
 ***

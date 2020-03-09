@@ -2,7 +2,12 @@
 layout: post
 title: Base64 编码规则
 date: 2016-12-23 15:57:24 +08:00
-tags: 协议
+author: Srefan
+catalog: true
+tags:
+    - 入门
+    - 协议
+    - Base64
 ---
 
 ### Base64 编码表

@@ -2,7 +2,11 @@
 layout: post
 title: 数据库系统的常识
 date: 2017-02-05 15:47:59 +08:00
-tags: 温故而知新
+author: Srefan
+catalog: true
+tags:
+    - 入门
+    - 数据库
 ---
 
 ***

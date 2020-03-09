@@ -2,7 +2,11 @@
 layout: post
 title: Objective-C声明Block的几种方式
 date: 2018-01-05 15:37:00 +08:00
-tags: 初学者
+author: Srefan
+catalog: true
+tags:
+    - Objective-C
+    - 深阅读
 ---
 
 ***

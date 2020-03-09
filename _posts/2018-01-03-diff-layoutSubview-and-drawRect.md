@@ -3,6 +3,11 @@ layout: post
 title: drawRect 和 layoutSubview 区别
 date: 2018-01-03 09:15:00 +08:00
 tags: 初学者
+author: Srefan
+catalog: true
+tags:
+    - Objective-C
+    - 深阅读
 ---
 
 ***

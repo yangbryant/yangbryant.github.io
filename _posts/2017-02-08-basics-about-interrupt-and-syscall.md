@@ -2,7 +2,11 @@
 layout: post
 title: 操作系统基础(二) -- 中断和系统调用
 date: 2017-02-08 11:28:00 +08:00
-tags: 温故而知新
+author: Srefan
+catalog: true
+tags:
+    - 入门
+    - 操作系统
 ---
 
 ***

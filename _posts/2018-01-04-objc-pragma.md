@@ -2,7 +2,11 @@
 layout: post
 title: pragma与Objective-C的警告
 date: 2018-01-04 16:15:00 +08:00
-tags: 刨根问底
+author: Srefan
+catalog: true
+tags:
+    - Objective-C
+    - 深阅读
 ---
 
 ***

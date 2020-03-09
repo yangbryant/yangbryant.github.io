@@ -2,7 +2,11 @@
 layout: post
 title: 排序算法的详细介绍(四) -- 选择排序
 date: 2017-02-04 11:31:00 +08:00
-tags: 温故而知新
+author: Srefan
+catalog: true
+tags:
+    - 入门
+    - 数据结构
 ---
 
 ***

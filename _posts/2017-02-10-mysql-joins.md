@@ -2,7 +2,11 @@
 layout: post
 title: MySQL Joins的用法
 date: 2017-02-10 13:12:00 +08:00
-tags: 初学者
+author: Srefan
+catalog: true
+tags:
+    - 入门
+    - 数据库
 ---
 
 ***

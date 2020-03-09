@@ -2,7 +2,11 @@
 layout: post
 title: CMake 简单用法
 date: 2017-07-14 09:03:00 +08:00
-tags: 初学者
+author: Srefan
+catalog: true
+tags:
+    - 入门
+    - CMake
 ---
 
 

@@ -3,9 +3,13 @@ layout: post
 title: "@"
 author: Mattt Thompson
 translator: Zihan Xu
-excerpt: "所以如果我们要对这难以捉摸的 Objective-C 品种观“码”，我们要看些什么？方括号，长的荒唐的方法名，和 <tt>@</tt> 指令。\"at\" 符号编译器指令对于理解 Objective-C 的格式以及其起源和底层机制非常重要。它是使得 Objective-C 如此强大，具有表现力，并仍能一路编译成底层 C 语言的关键。"
+description: "所以如果我们要对这难以捉摸的 Objective-C 品种观“码”，我们要看些什么？方括号，长的荒唐的方法名，和 <tt>@</tt> 指令。\"at\" 符号编译器指令对于理解 Objective-C 的格式以及其起源和底层机制非常重要。它是使得 Objective-C 如此强大，具有表现力，并仍能一路编译成底层 C 语言的关键。"
 date: 2018-01-08 16:15:00 +08:00
-tags: 转载侠
+catalog: true
+tags:
+    - Objective-C
+    - 深阅读
+    - 转载
 ---
 
 ***

@@ -2,7 +2,11 @@
 layout: post
 title: macOS获取应用BundleID并修改默认语言
 date: 2018-06-14 14:00:00 +08:00
-tags: 配置师
+author: Srefan
+catalog: true
+tags:
+    - macOS
+    - 配置
 ---
 
 ***

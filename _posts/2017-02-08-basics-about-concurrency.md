@@ -2,7 +2,11 @@
 layout: post
 title: 操作系统基础(三) -- 并发技术
 date: 2017-02-08 15:08:00 +08:00
-tags: 温故而知新
+author: Srefan
+catalog: true
+tags:
+    - 入门
+    - 操作系统
 ---
 
 ***

@@ -2,7 +2,12 @@
 layout: post
 title: 怎样用 SSH-Key 登录服务器
 date: 2017-12-08 15:50:00 +08:00
-tags: 配置师
+author: Srefan
+catalog: true
+tags:
+    - 配置
+    - 技巧
+    - SSH
 ---
 
 ***

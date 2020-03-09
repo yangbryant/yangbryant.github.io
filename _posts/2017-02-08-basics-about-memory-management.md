@@ -2,7 +2,11 @@
 layout: post
 title: 操作系统基础(四) -- 内存管理基础
 date: 2017-02-08 16:26:00 +08:00
-tags: 温故而知新
+author: Srefan
+catalog: true
+tags:
+    - 入门
+    - 操作系统
 ---
 
 ***

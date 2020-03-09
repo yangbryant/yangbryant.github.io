@@ -2,7 +2,12 @@
 layout: post
 title: Linux下补丁的生成与导入
 date: 2020-03-07 13:38:00 +08:00
-tags: 记录仪
+author: Srefan
+catalog: true
+tags:
+    - Linux
+    - 深阅读
+    - 技巧
 ---
 
 ***
