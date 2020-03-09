@@ -70,7 +70,7 @@
         width: 100%;
         height: 100%;
         position: absolute;
-        background: rgba(0,0,0, {{ page.header-mask }});
+        /* background: rgba(0,0,0, {{ page.header-mask }}); */
     }
     {% endif %}
 </style>
@@ -79,7 +79,12 @@
 {% else %}
 <header class="intro-header" >
 {% endif %}
-    <div class="header-mask"></div>
+    {% if site.cover_color %}
+    <div class="header-mask cover-{{site.cover_color}}"></div>
+    {% else %}
+    <div class="header-mask cover-disabled"></div>
+    {% endif %}
+    
     {% if page.header-img-credit %}
     <div class="header-img-credit">
         Image by <a href="//{{page.header-img-credit-href}}">{{page.header-img-credit}}</a>

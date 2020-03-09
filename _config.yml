@@ -22,7 +22,7 @@ github_username:    yangbryant
 #linkedin_username:  firstname-lastname-idxxxx
 
 cover_color: lightgray
-page-img: img/home-bg.jpg
+page-img: img/page-bg.jpg
 
 # Build settings
 # from 2016, 'pygments' is unsupported on GitHub Pages. Use 'rouge' for highlighting instead.
