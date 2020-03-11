@@ -80,7 +80,7 @@ kramdown:
 
 # Sidebar settings
 sidebar: true                           # whether or not using Sidebar.
-sidebar-about-description: "Keep on going, Never give up!<br>犹犹豫豫豫豫犹, 人生何处是尽头"
+sidebar-about-description: "Deeper Mind, Simpler Life!<br>犹犹豫豫豫豫犹, 人生何处是尽头"
 sidebar-avatar: /img/avatar.jpg      # use absolute URL, seeing it's used in both `/` and `/about/`
 
 
