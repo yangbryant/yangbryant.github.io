@@ -1,11 +1,9 @@
 ---
 layout: post
 title: QML与C++的国际化
-subtitle: 
 author: Srefan
 date: 2020-03-30 11:46:00 +08:00
 catalog: true
-header-img: 
 tags:
     - qt
     - 国际化 
