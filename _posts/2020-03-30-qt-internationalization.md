@@ -47,7 +47,7 @@ lrelease zh_CN.ts
 
 * 在 `main.cpp` 中添加加载代码.
 
-```
+```c++
 #include <QGuiApplication>
 #include <QQmlApplicationEngine>
 #include <QtCore>
