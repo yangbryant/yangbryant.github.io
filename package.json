@@ -10,7 +10,7 @@
     },
     "bugs": "https://github.com/Huxpro/huxpro.github.io/issues",
     "dependencies": {
-        "lodash": ">=4.17.12",
+        "lodash": ">=4.17.19",
         "cryptiles": ">=4.1.2",
         "mime": ">=1.4.1",
         "js-yaml": ">=3.13.1",
