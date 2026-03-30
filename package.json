@@ -16,7 +16,7 @@
         "js-yaml": ">=3.13.1",
         "minimatch": ">=3.0.2",
         "underscore.string": ">=3.3.5",
-        "minimist": ">=1.2.2",
+        "minimist": ">=1.2.6",
         "clean-css": ">=4.1.11",
         "tunnel-agent": ">=0.6.0",
         "request": ">=2.68.0",
